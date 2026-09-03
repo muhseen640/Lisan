@@ -1,0 +1,8 @@
+name = "lisan-unlock-api"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+[[d1_databases]]
+binding = "DB"                     # accessed in worker.js as env.DB
+database_name = "lisan-unlock-db"
+database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"   # filled in after `wrangler d1 create`
