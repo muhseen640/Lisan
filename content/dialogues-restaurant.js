@@ -1,0 +1,53 @@
+/** @type {import('./types.js').Pack} */
+export const dialoguesRestaurant = {
+  id: 'dialogues-restaurant',
+  slug: 'dialogues-restaurant',
+  icon: 'restaurant',
+  titleAr: 'محادثات: في المطعم',
+  titleEn: 'Dialogues: At the Restaurant',
+  descAr: 'استمع إلى محادثة كاملة، ثم مارس دورك فيها بصوتك — تدرّب على إجراء محادثة حقيقية، لا مجرد جمل منفصلة.',
+  descEn: 'Listen to a full conversation, then practice your side of it out loud — real dialogue flow, not just isolated phrases.',
+  category: 'dialogues',
+  categoryAr: 'محادثات',
+  categoryEn: 'Dialogues',
+  releaseMonth: '2026-09',
+  access: 'free', // flip to 'premium' + set price whenever you're ready — same as any other pack
+  difficulty: 'elementary',
+  status: 'published',
+  type: 'dialogue',
+  themLabelAr: 'النادل',
+  themLabelEn: 'Waiter',
+  youLabelAr: 'الزبون',
+  youLabelEn: 'Customer',
+  lessons: [
+    {
+      id: 'dlg-01',
+      titleAr: 'طلب الطعام',
+      titleEn: 'Ordering a Meal',
+      turns: [
+        { speaker: 'them', ar: 'مساء الخير، كم عدد الأشخاص؟', en: 'Good evening, how many people?', audio: './audio/dialogues/dlg-01-t0.mp3' },
+        { speaker: 'you',  ar: 'نحن اثنان، من فضلك.', en: 'We are two, please.', audio: './audio/dialogues/dlg-01-t1.mp3' },
+        { speaker: 'them', ar: 'تفضل، هذه قائمة الطعام.', en: 'Here you go, this is the menu.', audio: './audio/dialogues/dlg-01-t2.mp3' },
+        { speaker: 'you',  ar: 'شكرًا لك.', en: 'Thank you.', audio: './audio/dialogues/dlg-01-t3.mp3' },
+        { speaker: 'them', ar: 'هل أنتم جاهزون للطلب؟', en: 'Are you ready to order?', audio: './audio/dialogues/dlg-01-t4.mp3' },
+        { speaker: 'you',  ar: 'نعم، أريد الدجاج من فضلك.', en: 'Yes, I would like the chicken, please.', audio: './audio/dialogues/dlg-01-t5.mp3' },
+        { speaker: 'them', ar: 'ممتاز، هل تريد أي مشروبات؟', en: 'Excellent, would you like any drinks?', audio: './audio/dialogues/dlg-01-t6.mp3' },
+        { speaker: 'you',  ar: 'نعم، عصير برتقال من فضلك.', en: 'Yes, orange juice, please.', audio: './audio/dialogues/dlg-01-t7.mp3' },
+      ],
+    },
+    {
+      id: 'dlg-02',
+      titleAr: 'طلب الحساب',
+      titleEn: 'Asking for the Bill',
+      turns: [
+        { speaker: 'them', ar: 'هل استمتعتم بالوجبة؟', en: 'Did you enjoy the meal?', audio: './audio/dialogues/dlg-02-t0.mp3' },
+        { speaker: 'you',  ar: 'نعم، كانت لذيذة جدًا.', en: 'Yes, it was very delicious.', audio: './audio/dialogues/dlg-02-t1.mp3' },
+        { speaker: 'them', ar: 'هل تريدون أي شيء آخر؟', en: 'Would you like anything else?', audio: './audio/dialogues/dlg-02-t2.mp3' },
+        { speaker: 'you',  ar: 'لا شكرًا، الحساب من فضلك.', en: 'No thank you, the bill please.', audio: './audio/dialogues/dlg-02-t3.mp3' },
+        { speaker: 'them', ar: 'بالتأكيد، لحظة من فضلك.', en: 'Of course, one moment please.', audio: './audio/dialogues/dlg-02-t4.mp3' },
+        { speaker: 'you',  ar: 'شكرًا جزيلاً.', en: 'Thank you very much.', audio: './audio/dialogues/dlg-02-t5.mp3' },
+      ],
+    },
+  ],
+  quizzes: [],
+};
